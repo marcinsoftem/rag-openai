@@ -8,3 +8,7 @@ RUN useradd -ms /bin/bash miki
 USER miki
 
 WORKDIR /workspace
+
+EXPOSE 8501
+
+CMD ["bash"]
