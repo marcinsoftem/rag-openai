@@ -5,5 +5,5 @@
   },
   "workspaceFolder": "/app",
   "forwardPorts": [8501],
-  "postCreateCommand": "python -m venv /opt/venv && export PATH=\"/opt/venv/bin:$PATH\" && pip install --upgrade pip && pip install -r requirements.txt"
+  "postCreateCommand": "python -m venv ./.venv && export PATH='/app/.venv/bin:$PATH' && pip install --upgrade pip && pip install -r requirements.txt",
 }
