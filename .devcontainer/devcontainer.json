@@ -3,5 +3,6 @@
   "build": {
     "dockerfile": "Dockerfile"
   },
-  "workspaceFolder": "/IdeaProjects/rag-openai",
+  "workspaceFolder": "/app",
+  "postStartCommand": "pip install -r requirements.txt"
 }
