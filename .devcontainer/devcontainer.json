@@ -4,5 +4,12 @@
     "dockerfile": "Dockerfile"
   },
   "workspaceFolder": "/app",
-  "postStartCommand": "pip install -r requirements.txt"
+  "customizations": {
+    "jetbrains": {
+      "pycharm": {
+        "pythonInterpreterPath": "/usr/local/bin/python"
+      }
+    }
+  },
+  "postStartCommand": "pip install -r requirements.txt",
 }
